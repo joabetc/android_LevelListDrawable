@@ -21,6 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:onClick="decreaseLevel"
         android:text="-"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintStart_toStartOf="@+id/battery_image"
@@ -31,8 +32,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:onClick="increaseLevel"
         android:text="+"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="@+id/battery_image"
         app:layout_constraintTop_toBottomOf="@+id/battery_image" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
